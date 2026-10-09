@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mukesh — Candid Wedding Photographer & Visual Storyteller</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23c5a059'><path d='M4 4h3l2-2h6l2 2h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm8 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z'/></svg>" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-dark text-light">
+
+  <!-- Splash / Cover Screen (Mukesh Signature Entrance) -->
+  <div id="splash-screen" class="splash-screen">
+    <div class="splash-bg"></div>
+    <div class="splash-overlay"></div>
+    <div class="splash-content">
+      <h1 class="splash-logo">MUKESH PHOTOGRAPHY</h1>
+      <p class="splash-tagline">PHOTOGRAPHY &bull; CINEMATOGRAPHY &bull; FILMS</p>
+      <div class="splash-action">
+        <a href="#home" id="enter-btn" class="enter-link">
+          <span>ENTER</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Website Container -->
+  <div id="main-site" class="main-site">
+    
+    <!-- Top Navigation Bar -->
+    <header class="site-header" id="header">
+      <div class="header-container">
+        <div class="logo-area">
+          <a href="#home" class="brand-title">MUKESH</a>
+          <span class="brand-subtitle">PHOTOGRAPHY</span>
+        </div>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" id="main-nav">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">HOME</a></li>
+            <li><a href="#gallery" class="nav-link">GALLERIES</a></li>
+            <li><a href="#stories" class="nav-link">STORIES</a></li>
+            <li><a href="#testimonials" class="nav-link">TESTIMONIALS</a></li>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#enquire" class="nav-link btn-enquire">ENQUIRE</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-socials">
+          <a href="https://instagram.com/mukesh_photography" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/919999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-slider">
+        <div class="hero-slide active" style="background-image: url('https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1612774780935-ADRASH1WGZYHL3SZXC6K/namanverma-cover.jpg');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656591065539-LROUXACIIOI17RAZL5LC/DSC_7323-2-2.jpg');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1540882683151-LAABCL7L1BK7BA1M809I/02_NVP_NIKKIKELVIN_WEDDING-1520-2+copy+2.jpg');"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="hero-eyebrow">DESTINATION WEDDING & CANDID PHOTOGRAPHY</span>
+        <h2 class="hero-quote">“You Feel. I Focus. We Frame”</h2>
+        <p class="hero-subtext">We are creating timeless fiction out of raw reality.</p>
+        <div class="hero-buttons">
+          <a href="#gallery" class="btn btn-primary">VIEW PORTFOLIO</a>
+          <a href="#enquire" class="btn btn-outline">BOOK YOUR DATE</a>
+        </div>
+      </div>
+      <a href="#intro" class="scroll-indicator" aria-label="Scroll Down">
+        <span>SCROLL</span>
+        <div class="mouse-icon">
+          <div class="wheel"></div>
+        </div>
+      </a>
+    </section>
+
+    <!-- Philosophy / Statement Section -->
+    <section id="intro" class="section statement-section">
+      <div class="container text-center">
+        <span class="section-tag">THE PHILOSOPHY</span>
+        <h3 class="statement-text">
+          "Like a river flows surely to the sea, so it goes — some things are meant to be."
+        </h3>
+        <div class="statement-divider"></div>
+        <p class="statement-desc">
+          Documenting intimate moments, unspoken connections, and the raw energy of love. Based in Delhi, available across the world for destinations that take your breath away.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filterable Portfolio Gallery -->
+    <section id="gallery" class="section gallery-section">
+      <div class="container-fluid">
+        <div class="section-header text-center">
+          <span class="section-tag">SELECTED WORKS</span>
+          <h2 class="section-title">THE GALLERIES</h2>
+          <p class="section-subtitle">A curated collection of candid moments, rituals, and portraits</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="filter-controls">
+          <button class="filter-btn active" data-filter="all">ALL</button>
+          <button class="filter-btn" data-filter="weddings">WEDDINGS</button>
+          <button class="filter-btn" data-filter="portraits">PORTRAITS</button>
+          <button class="filter-btn" data-filter="destination">DESTINATION</button>
+          <button class="filter-btn" data-filter="monochrome">BLACK & WHITE</button>
+        </div>
+
+        <!-- Masonry Grid -->
+        <div class="gallery-grid" id="gallery-grid">
+          
+          <!-- Item 1 -->
+          <div class="gallery-item" data-category="weddings destination">
+            <div class="image-wrapper">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656591065539-LROUXACIIOI17RAZL5LC/DSC_7323-2-2.jpg" alt="Regal Wedding Couple" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="overlay-info">
+                  <span class="photo-category">WEDDINGS</span>
+                  <h4 class="photo-title">The Royal Vows</h4>
+                  <p class="photo-loc">Udaipur Palace</p>
+                </div>
+                <button class="view-btn" data-src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656591065539-LROUXACIIOI17RAZL5LC/DSC_7323-2-2.jpg" data-title="The Royal Vows — Udaipur" data-desc="Intimate portrait amidst the regal architectural corridors."><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="gallery-item" data-category="portraits">
+            <div class="image-wrapper">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656591063703-26V4SR5Y84R1CRY689K7/DSC00135.jpg" alt="Bride Portrait" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="overlay-info">
+                  <span class="photo-category">PORTRAITS</span>
+                  <h4 class="photo-title">Whispers of Grace</h4>
+                  <p class="photo-loc">New Delhi</p>
+                </div>
+                <button class="view-btn" data-src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656591063703-26V4SR5Y84R1CRY689K7/DSC00135.jpg" data-title="Whispers of Grace" data-desc="Capturing the subtle elegance and traditional bridal adornments."><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="gallery-item" data-category="weddings">
+            <div class="image-wrapper">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1540882683151-LAABCL7L1BK7BA1M809I/02_NVP_NIKKIKELVIN_WEDDING-1520-2+copy+2.jpg" alt="Nikki & Kelvin Wedding" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="overlay-info">
+                  <span class="photo-category">WEDDINGS</span>
+                  <h4 class="photo-title">Nikki & Kelvin</h4>
+                  <p class="photo-loc">Goa Beachfront</p>
+                </div>
+                <button class="view-btn" data-src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1540882683151-LAABCL7L1BK7BA1M809I/02_NVP_NIKKIKELVIN_WEDDING-1520-2+copy+2.jpg" data-title="Nikki & Kelvin Wedding" data-desc="Sunset pheras with a modern boho aesthetic."><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="gallery-item" data-category="monochrome portraits">
+            <div class="image-wrapper">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1504367625579-KSZWSTPQAWKMYBQWBWGS/NamanVerma-03-2.jpg" alt="Monochrome Bride" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="overlay-info">
+                  <span class="photo-category">BLACK & WHITE</span>
+                  <h4 class="photo-title">Pure Emotion</h4>
+                  <p class="photo-loc">Jaipur</p>
+                </div>
+                <button class="view-btn" data-src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1504367625579-KSZWSTPQAWKMYBQWBWGS/NamanVerma-03-2.jpg" data-title="Pure Emotion in Black & White" data-desc="Raw tears and joy stripped down to pure contrast and tone."><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="gallery-item" data-category="destination weddings">
+            <div class="image-wrapper">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656591077328-6VYDOIX9I54Y802E38SX/DSC01608s.jpg" alt="Destination Sunset" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="overlay-info">
+                  <span class="photo-category">DESTINATION</span>
+                  <h4 class="photo-title">Golden Hour Serenade</h4>
+                  <p class="photo-loc">Lake Como, Italy</p>
+                </div>
+                <button class="view-btn" data-src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656591077328-6VYDOIX9I54Y802E38SX/DSC01608s.jpg" data-title="Golden Hour Serenade" data-desc="Intimate couple portraits overlooking the tranquil alpine waters."><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="gallery-item" data-category="weddings">
+            <div class="image-wrapper">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656613282797-DEVFMHD2T04UF29S5IDK/01_NVP_SAHITYAVAMSI_HYDERABAD-3132.jpg" alt="Sahitya & Vamsi Wedding" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="overlay-info">
+                  <span class="photo-category">WEDDINGS</span>
+                  <h4 class="photo-title">Sahitya & Vamsi</h4>
+                  <p class="photo-loc">Hyderabad</p>
+                </div>
+                <button class="view-btn" data-src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656613282797-DEVFMHD2T04UF29S5IDK/01_NVP_SAHITYAVAMSI_HYDERABAD-3132.jpg" data-title="Sahitya & Vamsi Wedding" data-desc="Grand traditional South Indian wedding ceremony filled with color and devotion."><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="gallery-item" data-category="portraits monochrome">
+            <div class="image-wrapper">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1504367634102-0CN2ZLVW78I2OHB653BX/NVP_4983s-2.jpg" alt="Candid Expression" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="overlay-info">
+                  <span class="photo-category">PORTRAITS</span>
+                  <h4 class="photo-title">Unspoken Words</h4>
+                  <p class="photo-loc">Jodhpur</p>
+                </div>
+                <button class="view-btn" data-src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1504367634102-0CN2ZLVW78I2OHB653BX/NVP_4983s-2.jpg" data-title="Unspoken Words" data-desc="A candid glimpse behind the veil before the grand entrance."><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="gallery-item" data-category="destination portraits">
+            <div class="image-wrapper">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1531866755206-ISY0YOXYB11II3B34Z43/DSC_4598-2.jpg" alt="Couple by the sea" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="overlay-info">
+                  <span class="photo-category">DESTINATION</span>
+                  <h4 class="photo-title">Endless Horizons</h4>
+                  <p class="photo-loc">Santorini, Greece</p>
+                </div>
+                <button class="view-btn" data-src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1531866755206-ISY0YOXYB11II3B34Z43/DSC_4598-2.jpg" data-title="Endless Horizons" data-desc="Pre-wedding editorial shoot against the deep blue Aegean sea."><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 9 -->
+          <div class="gallery-item" data-category="weddings">
+            <div class="image-wrapper">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1540882554059-DUBR2VE49KN61SLC7IOV/DSC03222+copy+copys-2.jpg" alt="Sangeet Night" loading="lazy" />
+              <div class="gallery-overlay">
+                <div class="overlay-info">
+                  <span class="photo-category">WEDDINGS</span>
+                  <h4 class="photo-title">Euphoria & Dance</h4>
+                  <p class="photo-loc">Jaipur</p>
+                </div>
+                <button class="view-btn" data-src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1540882554059-DUBR2VE49KN61SLC7IOV/DSC03222+copy+copys-2.jpg" data-title="Euphoria & Dance" data-desc="High-octane energy and candid laughter on the sangeet floor."><i class="fa-solid fa-expand"></i></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Real Love Stories Section -->
+    <section id="stories" class="section stories-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">JOURNALS & PHOTO ESSAYS</span>
+          <h2 class="section-title">REAL LOVE STORIES</h2>
+          <p class="section-subtitle">Full wedding stories told through heartfelt candid narratives</p>
+        </div>
+
+        <div class="stories-grid">
+          
+          <article class="story-card">
+            <div class="story-img">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1540882683151-LAABCL7L1BK7BA1M809I/02_NVP_NIKKIKELVIN_WEDDING-1520-2+copy+2.jpg" alt="Nikki & Kelvin Story" loading="lazy" />
+              <div class="story-date">OCTOBER &bull; GOA</div>
+            </div>
+            <div class="story-body">
+              <h3 class="story-title">Nikki & Kelvin</h3>
+              <p class="story-excerpt">
+                A three-day coastal celebration where cultures intertwined under swaying palms, emotional vows, and an unforgettable seaside sunset.
+              </p>
+              <a href="#gallery" class="read-more">VIEW ESSAY &rarr;</a>
+            </div>
+          </article>
+
+          <article class="story-card">
+            <div class="story-img">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656613282797-DEVFMHD2T04UF29S5IDK/01_NVP_SAHITYAVAMSI_HYDERABAD-3132.jpg" alt="Sahitya & Vamsi Story" loading="lazy" />
+              <div class="story-date">DECEMBER &bull; HYDERABAD</div>
+            </div>
+            <div class="story-body">
+              <h3 class="story-title">Sahitya & Vamsi</h3>
+              <p class="story-excerpt">
+                Traditions rooted in grandeur. From the auspicious morning Mangala Snanam rituals to the high-energy evening reception banquet.
+              </p>
+              <a href="#gallery" class="read-more">VIEW ESSAY &rarr;</a>
+            </div>
+          </article>
+
+          <article class="story-card">
+            <div class="story-img">
+              <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1656591077328-6VYDOIX9I54Y802E38SX/DSC01608s.jpg" alt="Aashna & Rohan Story" loading="lazy" />
+              <div class="story-date">FEBRUARY &bull; UDAIPUR</div>
+            </div>
+            <div class="story-body">
+              <h3 class="story-title">Aashna & Rohan</h3>
+              <p class="story-excerpt">
+                A royal lakeside wedding bathed in royal candlelight, floating diyas, and authentic heartfelt tears of happiness.
+              </p>
+              <a href="#gallery" class="read-more">VIEW ESSAY &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">KIND WORDS</span>
+          <h2 class="section-title">TESTIMONIALS</h2>
+          <p class="section-subtitle">What our wonderful couples have to say</p>
+        </div>
+
+        <div class="testimonials-slider">
+          <div class="testimonial-card active">
+            <div class="quote-mark">“</div>
+            <p class="testimonial-quote">
+              Mukesh and his team captured not just how our wedding looked, but exactly how it FELT. Looking back at our photos brings back every tear, every laugh, and every heartbeat. Truly a visual poet!
+            </p>
+            <div class="testimonial-author">
+              <span class="author-name">Rhea & Kabir</span>
+              <span class="author-loc">Destination Wedding &bull; Lake Como</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-mark">“</div>
+            <p class="testimonial-quote">
+              They blended so seamlessly into the festivities that we hardly noticed the cameras. The candid shots and artistic colors are beyond anything we imagined — pure art for a lifetime.
+            </p>
+            <div class="testimonial-author">
+              <span class="author-name">Devika & Samarth</span>
+              <span class="author-loc">Palace Wedding &bull; Jaipur</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-mark">“</div>
+            <p class="testimonial-quote">
+              The attention to detail and color palette is unmatched. If you want timeless photographs that will look just as stunning 50 years from now, Mukesh is the only choice.
+            </p>
+            <div class="testimonial-author">
+              <span class="author-name">Pooja & Rohan</span>
+              <span class="author-loc">Beach Wedding &bull; Goa</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-dots">
+          <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+          <button class="dot" data-index="1" aria-label="Slide 2"></button>
+          <button class="dot" data-index="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-wrapper">
+            <img src="https://images.squarespace-cdn.com/content/v1/56a74ebd1c121044e144939b/1531866699917-RHRFCUAYHNAO6ICDBNXY/Naman_Verma_Shotkit2.jpg" alt="Mukesh Photographer" class="about-img" />
+            <div class="about-badge">
+              <span class="years">10+</span>
+              <span class="label">Years of Craft</span>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <span class="section-tag">BEHIND THE LENS</span>
+            <h2 class="about-title">HI, I'M MUKESH.</h2>
+            <p class="about-lead">
+              A Delhi-based candid wedding photographer and storyteller with an obsession for raw, cinematic light and genuine human connection.
+            </p>
+            <p class="about-text">
+              Photography for me isn't about stiff poses or artificial smiles. It is about capturing that quiet glance across a crowded banquet hall, the tear your father wipes away during the vidaai, and the ecstatic joy of dancing until 4 AM.
+            </p>
+            <p class="about-text">
+              Over the last decade, I’ve had the privilege of documenting stories across India, Europe, Southeast Asia, and the Middle East. Every wedding is a distinct movie, and I am honored to frame yours.
+            </p>
+
+            <div class="gear-strip">
+              <div class="gear-item">
+                <i class="fa-solid fa-camera"></i>
+                <div>
+                  <strong>Primary Gear</strong>
+                  <span>Sony Alpha 1 & A7R V</span>
+                </div>
+              </div>
+              <div class="gear-item">
+                <i class="fa-solid fa-compact-disc"></i>
+                <div>
+                  <strong>Prime Optics</strong>
+                  <span>G-Master 35mm, 50mm, 85mm f/1.2</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta">
+              <a href="#enquire" class="btn btn-primary">LET'S CONNECT</a>
+              <a href="https://instagram.com/mukesh_photography" target="_blank" rel="noopener" class="btn btn-outline">
+                <i class="fa-brands fa-instagram"></i> @mukesh_photography
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enquire / Booking Section -->
+    <section id="enquire" class="section enquire-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">LET'S CREATE MAGIC TOGETHER</h2>
+          <p class="section-subtitle">We take on a limited number of weddings each season to ensure undivided artistic focus on every story.</p>
+        </div>
+
+        <div class="enquire-wrapper">
+          
+          <div class="enquire-info">
+            <h3>Ready to tell your story?</h3>
+            <p>Fill out the inquiry form or connect directly via WhatsApp / Email for prompt availability checks.</p>
+            
+            <div class="contact-details">
+              <div class="contact-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Location</strong>
+                  <span>New Delhi, India (Available Worldwide)</span>
+                </div>
+              </div>
+              
+              <div class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>Direct Email</strong>
+                  <span><a href="mailto:info@mukeshphotography.com">info@mukeshphotography.com</a></span>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <i class="fa-brands fa-whatsapp"></i>
+                <div>
+                  <strong>WhatsApp Direct</strong>
+                  <span><a href="https://wa.me/919999999999" target="_blank">+91 99999 99999</a></span>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <i class="fa-brands fa-instagram"></i>
+                <div>
+                  <strong>Instagram DM</strong>
+                  <span><a href="https://instagram.com/mukesh_photography" target="_blank">@mukesh_photography</a></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="booking-notice">
+              <i class="fa-solid fa-calendar-check"></i>
+              <span>Now accepting bookings for the 2026 – 2027 Wedding Season.</span>
+            </div>
+          </div>
+
+          <div class="enquire-form-card">
+            <form id="booking-form" class="booking-form" onsubmit="return handleFormSubmit(event)">
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="client-name">Your Name(s) *</label>
+                  <input type="text" id="client-name" required placeholder="e.g. Ananya & Siddharth" />
+                </div>
+                <div class="form-group">
+                  <label for="client-email">Email Address *</label>
+                  <input type="email" id="client-email" required placeholder="you@example.com" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="client-phone">Phone / WhatsApp *</label>
+                  <input type="tel" id="client-phone" required placeholder="+91 98765 43210" />
+                </div>
+                <div class="form-group">
+                  <label for="event-date">Wedding / Event Date(s) *</label>
+                  <input type="date" id="event-date" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="event-venue">City / Destination Venue *</label>
+                  <input type="text" id="event-venue" required placeholder="e.g. Udaipur / Goa / Delhi" />
+                </div>
+                <div class="form-group">
+                  <label for="service-type">Services Required</label>
+                  <select id="service-type">
+                    <option value="both">Photography + Cinematography Film</option>
+                    <option value="photo">Photography Only</option>
+                    <option value="destination">Destination Pre-Wedding + Wedding</option>
+                    <option value="portrait">Editorial Couple Portraiture</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="event-message">Tell us about your wedding & vision</label>
+                <textarea id="event-message" rows="4" placeholder="Tell us about yourselves, estimated guest count, theme, and what you're looking for in your photographs..."></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn-submit">
+                  <i class="fa-solid fa-paper-plane"></i> SEND INQUIRY
+                </button>
+                <a id="whatsapp-quick-btn" href="https://wa.me/919999999999?text=Hi%20Mukesh,%20I'd%20like%20to%20inquire%20about%20wedding%20photography%20services." target="_blank" class="btn btn-whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i> QUICK CHAT ON WHATSAPP
+                </a>
+              </div>
+
+              <div id="form-feedback" class="form-feedback"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <h2>MUKESH PHOTOGRAPHY</h2>
+            <p>Candid Wedding Photography & Film</p>
+          </div>
+
+          <div class="footer-nav">
+            <a href="#home">HOME</a>
+            <a href="#gallery">GALLERIES</a>
+            <a href="#stories">STORIES</a>
+            <a href="#testimonials">TESTIMONIALS</a>
+            <a href="#about">ABOUT</a>
+            <a href="#enquire">ENQUIRE</a>
+          </div>
+
+          <div class="footer-socials">
+            <a href="https://instagram.com/mukesh_photography" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/919999999999" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; <span id="current-year">2026</span> MUKESH PHOTOGRAPHY. ALL RIGHTS RESERVED.</p>
+          <p class="footer-credit">Handcrafted with passion for visual storytellers &bull; Ready for GitHub Pages</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Fullscreen Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close modal">&times;</button>
+      <button class="lightbox-nav prev" id="lightbox-prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="lightbox-nav next" id="lightbox-next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+      
+      <div class="lightbox-content">
+        <div class="lightbox-img-box">
+          <img src="" alt="Expanded View" id="lightbox-img" />
+        </div>
+        <div class="lightbox-caption">
+          <h4 id="lightbox-title">Photo Title</h4>
+          <p id="lightbox-desc">Photo Description</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
